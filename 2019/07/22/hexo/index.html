@@ -8,7 +8,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init myHexo <span class="comment">#名字可以自行更改</span></span><br><span class="line">$ <span class="built_in">cd</span> myblog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
 <p>新建完成后，指定文件夹的目录如下：</p>
 <p>.<br>├── _config.yml<br>├── package.json<br>├── scaffolds<br>├── source<br>|   ├── _drafts<br>|   └── _posts<br>└── themes</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g <span class="comment">#生成静态文件</span></span><br><span class="line">$ hexo s <span class="comment">#启动服务器。默认情况下，访问网址为： http://localhost:4000/。</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g <span class="comment">#生成静态文件</span></span><br><span class="line">$ hexo s <span class="comment">#启动服务器。默认情况下，访问网址为： http://localhost:4000/</span></span><br></pre></td></tr></table></figure>
 <h2 id="新建GitHub仓库"><a href="#新建GitHub仓库" class="headerlink" title="新建GitHub仓库"></a>新建GitHub仓库</h2><p>首先创建一个仓库：</p>
 <p><img src="/images/hexo/git.png"></p>
 <p>前后的用户名要相同，因为我已经创建了，所以红字。</p>
@@ -37,6 +37,7 @@
 <p><img src="/images/hexo/13.png"></p>
 <p>最后重新部署，部署之后打开<a href="https://guihuashitang.github.io/就可以看到了,guihuashitang换成自己的用户名即可。" target="_blank" rel="noopener">https://guihuashitang.github.io/就可以看到了,guihuashitang换成自己的用户名即可。</a></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  <span class="comment">#清除缓存文件 (db.json) 和已生成的静态文件 (public)</span></span><br><span class="line">hexo g      <span class="comment">#生成静态文件</span></span><br><span class="line">hexo d      <span class="comment">#部署之前预先生成静态文件</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2019/07/22/5d3564b58bc6085232.jpg"></p>
 </div></article></div></main><footer><div class="paginator"><a href="/2019/07/11/hello-world/" class="next">NEXT</a></div><div id="gitalk-container"></div><script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
 clientID: '72889f2d7a255df9f337',
 clientSecret: '7625f7e78c699cc24875913d6fb9fd4b5aa1e437',
