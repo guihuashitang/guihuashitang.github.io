@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/07/22/gulp/</loc>
+    
+    <lastmod>2019-07-23T03:41:41.922Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/07/22/hexo/</loc>
     
-    <lastmod>2019-07-22T07:26:12.320Z</lastmod>
+    <lastmod>2019-07-22T09:17:45.838Z</lastmod>
     
   </url>
   
